@@ -8,7 +8,10 @@
 body {
     font-family: var(--sm-font);
 }
-
+/* text color */
+.text-primary{
+    color: var(--pink) !important;
+}
 /* button */
 .bg-primary{
     background-color: var(--pink) !important;
@@ -54,6 +57,30 @@ body {
     border-color: var(--pink) !important;
 }
 
+/* collections */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px ;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn{
+    background-color: var(--pink) !important;
+    color: #fff !important;
+    border-color: var(--pink) !important;
+}
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
 /* media queries */
 @media(min-width: 992px) {
     .nav-item{

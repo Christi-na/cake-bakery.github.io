@@ -94,6 +94,9 @@
         </button>
     </header>
     <!-- end of header -->
+
+
+    <!-- section -->
     <section class="py-5" id="collection">
         <div class="container">
             <div class="title text-center" >
@@ -101,14 +104,14 @@
             </div>
 
             <div class="row g-0">
-                <div class="d-flex flex-wrap justify-content-center mt-5">
-                    <button type="button" class="btn m-2 text-dark active-filter-btn">All</button>
-                    <button type="button" class="btn m-2 text-dark">Best Sellers</button>
-                    <button type="button" class="btn m-2 text-dark">Featured</button>
-                    <button type="button" class="btn m-2 text-dark">New Products</button>
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
+                    <button type="button" class="btn m-2 text-dark  " data-filter=".cakes">Cakes</button>
+                    <button type="button" class="btn m-2 text-dark " data-filter=".macar">Macarons</button>
+                    <button type="button" class="btn m-2 text-dark " data-filter=".new">New Products</button>
                 </div>
 
-                <div class="collection-list mt-4 row gx-0 gy-3">
+                <div class="collection-list mt-4 row gx-0 gy-3 cakes">
                     <div class="col-md-6 col-lg-4 col-xl-3 p-2">
                         <div class="collection-img position-relative">
                             <img src="images/cake-1.jpg" alt="" class="w-100">
@@ -132,12 +135,12 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="my-1">Chocolate Cake with Macarons and wafer Cones</p>
+                            <span class="fw-bold">$ 45.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-10.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -160,12 +163,13 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">
+                                Chocolate Ice-cream</p>
+                            <span class="fw-bold">$ 4.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 cakes" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-2.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -188,12 +192,12 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
+                            <p class="text-capitalize my-1">Elegant pink cake</p>
                             <span class="fw-bold">$ 25.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 cakes" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-4.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -216,12 +220,12 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">honey cake</p>
+                            <span class="fw-bold">$ 4.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 cakes" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-3.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -244,12 +248,12 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">Raspberry Cake</p>
+                            <span class="fw-bold">$ 15.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 macar" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-8.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -272,12 +276,13 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">
+                                Fruit macarons</p>
+                            <span class="fw-bold">$ 6.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 cakes" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-5.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -300,12 +305,13 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">
+                                Strawberry cake</p>
+                            <span class="fw-bold">$ 2.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 macar new" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-7.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -328,12 +334,14 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">
+                                Classic rose macarons
+                            </p>
+                            <span class="fw-bold">$ 9.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 cakes new" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-6.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -356,12 +364,14 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="text-capitalize my-1">
+                                Raspberry dessert
+                            </p>
+                            <span class="fw-bold">$ 5.50</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 cakes new" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-11.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -384,12 +394,13 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="my-1">
+                                Cheesecake with Berries</p>
+                            <span class="fw-bold">$ 3.00</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-9.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -412,12 +423,13 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="my-1">
+                                Strawberry handmade Ice-cream</p>
+                            <span class="fw-bold">$ 3.50</span>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2" >
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new" >
                         <div class="collection-img position-relative">
                             <img src="images/cake-12.jpg" alt="" class="w-100">
                             <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -440,8 +452,9 @@
                                     <i class="fa fa-star"></i>
                                 </span>
                             </div>
-                            <p class="text-capitalize my-1">pr. name</p>
-                            <span class="fw-bold">$ 25.00</span>
+                            <p class="my-1">
+                                Pancakes with Ice-cream and Chocolade topping</p>
+                            <span class="fw-bold">$ 8.00</span>
                         </div>
                     </div>
 
@@ -449,12 +462,92 @@
             </div>
         </div>
     </section>
-    <!-- section -->
+    <!-- end of section -->
+
+    <!-- special products -->
+    <section id="special" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">
+                    Selection
+                </h2>
+            </div>
+
+            <div class="special-list row g-0">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special-pr-1.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex  align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">
+                            birthday cake
+                        </p>
+                        <span class="fw-bold d-block">$ 55.00</span>
+                        <a href="!#" class="btn btn-primary  mt-3">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special-pr-2.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex  align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">
+                            Wedding cake
+                        </p>
+                        <span class="fw-bold d-block">$ 149.00</span>
+                        <a href="!#" class="btn btn-primary  mt-3">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special-pr-3.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex  align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">
+                            Child gender cake
+                        </p>
+                        <span class="fw-bold d-block">$ 50.00</span>
+                        <a href="!#" class="btn btn-primary  mt-3">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special-pr-4.jpg" alt="" class="w-100">
+                        <span class="position-absolute d-flex  align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">
+                            birthday cake
+                        </p>
+                        <span class="fw-bold d-block">$ 40.00</span>
+                        <a href="!#" class="btn btn-primary  mt-3">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of special products -->
 
 
-    <!-- end pf section -->
+
     <!-- jquery -->
     <script src="js/jquery-3.6.0.js"></script>
+    <!-- isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <!-- bootstrap js -->
     <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js" ></script>
     <!-- custom js -->

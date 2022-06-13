@@ -58,6 +58,18 @@ body {
 }
 
 /* collections */
+/* .square-div:before{
+    white-space: normal;
+    vertical-align: middle;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding-top: 100%;
+    background-color: aqua;
+    z-index: 99;
+} */
+
 .title h2::before{
     position: absolute;
     content: "";
@@ -73,7 +85,9 @@ body {
     color: #fff !important;
     border-color: var(--pink) !important;
 }
-
+.filter-button-group .btn:hover{
+    color: #fff !important;
+}
 .collection-img span{
     top: 20px;
     right: 20px;
@@ -81,6 +95,21 @@ body {
     height: 46px;
     border-radius: 50%;
 }
+/* special */
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px !important;
+}
+.special-list img{
+    transition: all 0.3s ease;
+}
+.special-list img:hover{
+    transform: scale(1.2);
+}
+
 /* media queries */
 @media(min-width: 992px) {
     .nav-item{

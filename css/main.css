@@ -154,6 +154,21 @@ body {
     background-color: #000;
     border-color: #000;
 }
+/* footer */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;;
+}
+footer p, footer ul li a{
+    font-weight: 200;
+    opacity: 0.7;
+}
+footer a{
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: var(--pink)!important;
+}
 
 /* media queries */
 @media(min-width: 992px) {
